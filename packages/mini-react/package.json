@@ -1,0 +1,26 @@
+{
+  "name": "@qiuyl/mini-react",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "buildOptions": {
+    "formats": [
+      "es",
+      "cjs"
+    ]
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/mini-react.cjs.js",
+  "module": "./dist/mini-react.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/mini-react.es.js",
+      "require": "./dist/mini-react.cjs.js",
+      "types": "./dist/index.d.ts"
+    }
+  }
+}
